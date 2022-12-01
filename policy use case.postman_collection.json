@@ -1,0 +1,44 @@
+{
+	"info": {
+		"_postman_id": "5773fdac-5248-4e95-9fd4-3ba4f6ae9a8e",
+		"name": "policy use case",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "http://hebert-training-api.us-e1.cloudhub.io/status",
+			"request": {
+				"auth": {
+					"type": "noauth"
+				},
+				"method": "GET",
+				"header": [
+					{
+						"key": "client_id",
+						"value": "a0d33bbc8e9b48f5a042340a3afd0266",
+						"type": "text"
+					},
+					{
+						"key": "client_secret",
+						"value": "Eab94f6C6C904a75be9C7e300c7c5b06",
+						"type": "text"
+					}
+				],
+				"url": {
+					"raw": "http://hebert-training-api.us-e1.cloudhub.io/status",
+					"protocol": "http",
+					"host": [
+						"hebert-training-api",
+						"us-e1",
+						"cloudhub",
+						"io"
+					],
+					"path": [
+						"status"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
